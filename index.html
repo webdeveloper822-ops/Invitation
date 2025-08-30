@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Invitation Envelope</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+    <div class="envelope closed" id="env" role="button" tabindex="0" aria-label="Open invitation envelope" aria-pressed="false">
+      
+      <!-- Envelope body -->
+      <div class="back"></div>
+
+      <!-- Top flap -->
+      <div class="flap">
+        <div class="seal">💌</div>
+      </div>
+
+      <!-- Image inside instead of card -->
+      <div class="card" id="card" aria-hidden="true">
+        <img src="1756571386518.jpg" alt="Invitation Image" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
